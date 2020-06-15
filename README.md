@@ -8,6 +8,7 @@
 
 ## 3주차 과제(2020.06.04)
 - [학습률 최적화, 군집분석 구현, Cost function 구현](https://github.com/cromatical/GwangJu-AI/blob/master/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.ipynb)
+ - 위의 파일이 열리지 않는다면 이 방식으로 업로드 해주세요 [3주차 과제 nbviwer](https://colab.research.google.com/drive/11rrOBjCMhVwRhTlDWVitOtFmsLBXbSZ7)
 
 ## 4주차 과제(2020.06.11)
 - [딥러닝 용어정리, 클론 코딩, 딥러닝 순전파 & 역전파 계산](https://github.com/cromatical/GwangJu-AI/blob/master/4%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.ipynb)
