@@ -4,6 +4,6 @@
 - html flex 이해하는데 도움되는 게임 : [https://flexboxfroggy.com/#ko]
 
 
-### data
+### Data
 - kaggle : [https://www.kaggle.com/datasets]
 - dacon : [https://dacon.io/]
