@@ -7,3 +7,6 @@
 ### Data
 - kaggle : [https://www.kaggle.com/datasets]
 - dacon : [https://dacon.io/]
+
+### 자료구조
+- 잔재미코딩 : [https://www.fun-coding.org/DS&AL1-2.html]
