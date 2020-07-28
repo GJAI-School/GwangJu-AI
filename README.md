@@ -14,3 +14,6 @@
 ### 딥러닝 / 머신러닝
 - 머신러닝 용어집[https://developers.google.com/machine-learning/glossary?hl=ko]
 - softmax_cross_entropy 편미분 [https://ratsgo.github.io/deep%20learning/2017/10/02/softmax/] 
+
+### 자연어
+- 딥러닝을 이용한 자연어 처리  [https://wikidocs.net/book/2155]
