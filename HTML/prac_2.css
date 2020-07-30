@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+.todo_1 {
+  width: 500px;
+  height: 349px;
+  background-color: coral;
+
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  z-index: 4;
+  opacity: 0.3;
+
+
+  /* TODO */
+  /* 포지션 구현하기 */
+  /* 불투명도 구현하기 */
+}
+.todo_2 {
+  width: 500px;
+  height: 349px;
+  background-color: lightseagreen;
+
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  z-index: 3;
+  opacity: 0.3;
+
+  /* TODO */
+  /* 포지션 구현하기 */
+  /* 불투명도 구현하기 */
+}
+.todo_3 {
+  width: 500px;
+  height: 349px;
+  background-color: lightskyblue;
+
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  z-index: 2;
+  opacity: 0.3;
+
+  /* TODO */
+  /* 포지션 구현하기 */
+  /* 불투명도 구현하기 */
+  /* 사진 위로 오게끔 하기 */
+}
+
+.sample_img {
+  width: 536px;
+  height: 349px;
+
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>relative vs absolute</title>
+    <style>
+      .box_wrapper {
+        width: 300px;
+        height: 200px;
+        border: 3px dashed lightpink;
+
+        /* 끝을 둥글게 할 수 있음 */
+        border-radius: 5px;
+
+        /*
+        absolute 속성은 부모가 position static이 아니라면,
+        부모를 기준으로 움직이고,
+        부모가 position static인게 없다면,
+        body 태그를 기준으로 움직이게 된다.
+        아래 코드를 주석을 풀어보면서 화면에서 어떻게 달라지는지 확인해보자.
+        */
+        /* position: relative; */
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightpink;
+
+        border-radius: 5px;
+
+        position: absolute;
+        top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 여러개를 담을 때 wrapper나 container라는 이름을 많이 쓴다 -->
+    <div class="box_wrapper">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

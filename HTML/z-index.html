@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>z-index</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightpink;
+
+        border-radius: 5px;
+
+        position: relative;
+        top: 50px;
+        /*
+        원래는 나중에 선언된 box2가 위로 올라오지만
+        z-index를 이용하면 이러한 순서를 바꿀 수 있다.  
+        아래 코드를 주석을 풀어서(컨트롤 + /), 결과를 비교 해보자
+        */
+        /* z-index: 1; */
+      }
+
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+
+        border-radius: 5px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box2"></div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./html4.css"/>
+</head>
+<body>
+  <form action="http://server.ai-school.com" method="POST">
+    <label for="User_id_input">아이디 :</label>
+    <input id="User_id_input" type="text" name="User_id" placeholder="아이디를 입력하세요."/>
+    <br/>
+    <br/>
+    <label for="User_pw_input">비밀번호 :</label>
+    <input id="User_pw_input" type="password" name="Userpw" placeholder="비밀번호를 입력하세요."/>
+    <br/>
+    <br/>
+    <label for="pw_hint">비밀번호 힌트 :</label>
+    <select id="pw_hint">
+      <option value="hint1">hint1</option>
+      <option value="hint2">hint2</option>
+      <option value="hint3">hint3</option>
+      <option value="hint4">hint4</option>
+      <option value="hint5">hint5</option>
+    </select>
+    <input id="pw_hint" type="text" name="hint" placeholder="답변"/>
+    <br/>
+    <br/>
+    <textarea id="myself" name="content" cols="50" rows="10">자기소개</textarea>
+    <br/>
+    <br/>
+    <button type="submit">login</button>    
+  </form>
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+.container_box {
+    display: flex;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin: 5px;
+
+}

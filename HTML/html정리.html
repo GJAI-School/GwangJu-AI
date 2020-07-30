@@ -1,0 +1,150 @@
+<!DOCTYPE html> <!-- 문서 형식을 나타냄 -->
+<html lang="en"> <!-- html 형식나타냄 : 언어설정 -->
+
+<!-- head의 요소 
+    - 페이지에 대한 metadata를 포함하는 것입니다.
+-->
+<head> 
+    <!-- utf-8 은 전세계적인 character 집합으로 많은 언어들을 문자들을 포함 -->
+    <meta charset="UTF-8">
+    <!--많은 <meta> 요소가 name 과 content 속성을 가집니다:
+        - name 은 메타 요소가 어떤 정보의 형태를 갖고 있는지 알려줍니다.
+        - content는 실제 메타데이터의 컨텐츠입니다.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML문서 전체의 타이틀 표현하기 위한 메타데이터입니다. -->
+    <title>My page</title>
+</head>
+<body> <!-- body의 요소 -->
+    <h1>body title 설정. 숫자로 글자 크기조절 가능</h1>
+        <p>HTML에서 각 단락은 &lt;P&gt;요소 안에 둘러 싸여 있어야 합니다. 다음에 나오는 것처럼
+            heading요소는 다음과 같이 총 6개를 가지고 있습니다. &lt;h1&gt:~&lt;h6&gt; 이를 이용하여
+            우리는 제목, 소제목, 소제목의 소제목으로 제목들을 나타낼수가 있습니다. 아래와 같이 
+            구조화된 계층을 표현할 수 있다.
+        </p>
+        <h2>chapter 1 : 문장강조하기</h2>
+            <p>My cat is <strong>very</strong> grumpy.</p>
+        
+        <h2>chapter 2 : 블럭레벨요소, 인라인요소</h2>
+            <em>first</em><em>sound</em><em>third</em>
+            <p>fourth</p><p>fifth</p><p>sixth</p> 
+        
+        <h2>example</h2>
+            <p>I am a policewoman and my name is Trish.</p>
+            <p>My legs are made of cardboard and I am married to a fish</p>
+        
+        <h2>chapter 3 : div와 span의 차이</h2>
+        <div>div는 이렇게 줄바꿈을 하는 block content이다</div>
+        다음것
+        <span>span은 이렇게 줄바꿈을 하지 않는 inline content이다.</span>
+        다음것
+
+        <h2>chapter 4: 이미지 삽입</h2>
+            <p>alt는 스크린 리더기와 이미지가 안뜰때의 상황을 대비하여</p>
+            <img src=".\aaa.jpg" alt="함정카드 발동" />
+    
+        <h2>chapter 5 : 속성링크달기</h2>
+            <ul>
+                <li>href : 연결하고자 하는 웹 사이트 연결</li>
+                <li>title : 속성에 대한 추가 정보를 보여줍니다.</li>
+                <li>target : _blank를 이용하여 새탭을 열어러 링크를 보여줍니다.</li>
+                <li>속성을 입력할 때는 "" 를 이용하자 </li>
+            </ul>
+            <p>A link to my<a href="https://www.google.com/" title="GOD GOOGLE" target="_blank">favorite website</a>.</p>
+            
+        <h2>chapter 6 : 참과 거짓 속성</h2>
+            <p>disable 속성을 통해서 사용자가 사용을 못하게 막을수가 있다. </p>
+            <input type="text" disabled>
+            <input type="text">
+        
+        <h2>chapter 7 : 특수문자</h2>
+        <p>In HTML, you define a paragraph using the &lt;p&gt; element.</p> 
+
+        <h2>chapter 8 : 리스트</h2>
+            <p>Unordered: 정렬되지 않은 목록은 항목의 순서가 중요하지 않은 항목 목록을 표시하는데 사용된다.</p>
+            <ul>
+                <li>milk</li>
+                <li>eggs</li>
+                <li>bread</li>
+                <li>hummus</li>
+            </ul>
+            <p>Ordered: 순서 있는 리스트는 항목의 순서가 중요하다 순서를 정해주자</p>
+            <ol>
+                <li>milk</li>
+                <li>eggs</li>
+                <li>bread</li>
+                <li>hummus</li>
+            </ol>        
+        
+        <h2>chapter 9 : 하이퍼링크</h2>
+            <p>웹을 웹다워보이도록 만들어줌. 문서들을 다른문서들과 연결시켜주기도 하고 다른 resource들과 연결을 시켜주기도 한다.</p>
+            <h3>링크의 구조</h3>
+                <p>I'm creating a link to <a href="https://www.naver.com" title="네이버" target="_blank">naver</a></p>
+                <a href="https://www.naver.com" title="네이버">
+                    <img src="aaa.jpg" alt="함정카드 발동">
+                </a>
+            
+        <h2>chapter 10 : URL과 PATH</h2>
+            <P>URL : 단순히 무언가가 웹상의 어디에 위치하는지를 결정하는 하나의 텍스트 문자열 </P>
+            <P>PATH : URL이 파일을 찾기위해 사용하는것으로 파일이 파일 시스템 어디에 있는지 구체적으로 명시</P>
+
+        <h2>chapter 11 : Description list</h2>
+            <p>이 리스트의 목적은 용어 및 정의, 질문 및 답변과 같은 일련의 항목 및 관련 설명을 표시하는 것이다.</p>
+            <dl>
+                <dt>solioquy</dt>
+                <dd>In drama, where a character speaks to themselves</dd>
+                <dt>monologue</dt>
+                <dd>In drama, where a character speaks to themselves</dd>
+                <dt>aside</dt>
+                <dd>In drama, where a character speaks to themselves</dd>
+                <dd>In drama, where a character speaks to themselves</dd>
+            </dl>
+        
+        <h2>chapter 12 : 인용구</h2>
+            <p>인용구 표시에 사용할 수 있는 요소가 존재한다. 해당 요소는 불록 도는 인라인 요소인지에 따라 다르게 표시됨
+                브라우저 기본 스타일은 인용구를 표현할 때, 들여쓰기 된 단락으로 나타낸다</p>
+            <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+            <h3>blockquotes</h3>
+                <p>블록레벨컨텐츠의 섹션이 인용된 경우</p>
+                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+                </blockquote>
+            <h3>Citations</h3>
+                <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                <cite>MDN blockquote page</cite></a>:
+                </p>
+                    
+                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+                </blockquote>
+                    
+                <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+                for short quotations that don't require paragraph breaks.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+                <cite>MDN q page</cite></a>.</p>
+        <h2>chapter 13: 약어</h2>
+            <p>abbr 이용하여 이는 머리 글자 또는 약어를 나타내는데 사용됩니다. title 속성을 통해 원래의 용어를 나태날 수 있습니다.  </p>
+            <p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
+
+            <p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>
+        
+        <h2>chapter 14 : 연락처 세부사항 표시</h2>
+          <address>
+            <p>Chris Mills, Manchester, The Grim North, UK</p>
+          </address>
+
+          <address>
+            <p>Page written by <a href="../authors/chris-mills/">Chris Mills</a>.</p>
+          </address>
+          
+        <h2>chapter 15 : 위첨자, 아래첨자</h2>
+            <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+            <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+            <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+        <h2>시간과 날짜 표시</h2>
+          <time datetime="2016-01-20">20 January 2016</time>
+        
+</body>
+</html>

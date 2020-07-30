@@ -1,0 +1,17 @@
+.container_box {
+    width: 500px;
+    height: 200px;
+    border: 3px solid lightcoral;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    border-radius: 5px
+
+}

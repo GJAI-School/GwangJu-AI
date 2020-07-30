@@ -1,0 +1,48 @@
+#line1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#line3{
+    font-weight: bold;
+}
+
+.main_container{
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub_container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 100px;
+}
+
+.sub_contrainer2{
+    border-radius: 10px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bank {
+    width: 300px;
+    border-radius: 10px;
+    vertical-align: middle;
+
+    box-shadow:
+    0 30px 60px 12px rgba(0,0,33,0.05),
+    0 4px 24px 0 rgba(0,0,33,0.05),
+    0 0 1px 0 rgba(0,0,33,0.09);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 5px;
+}
